@@ -1,5 +1,6 @@
-# RegulatoryLockcoin: a secure,regulatory and privacy-preserving mix services for Bitcoin anonymity
-We recommend using RegulatoryLockcoin, a protocol for anonymous payments using bitcoin digital currency. Unlike other proposals that promote anonymity, our protocol can cut off the mapping from user input to output address. Our agreement is also effective in preventing theft. In addition to these, the protocol has a regulatory center which can achieve responsibility tracking. To achieve this, we use a fair blind signature and anonymous communication network. The program is fully compatible with Bitcoin, which provides anonymity, accountability, scalability, backward compatibility and theft.
+# 可监管的比特币隐私保护混淆服务
+本文提出了一种可监管的比特币隐私保护方案。引入可信第三方，使用RSA公平盲签名算法增加了协议的可监管性。同时使用Tor匿名网络和OP_RETURN交易保证用户隐私。
+
 ## Environment:
 
 The experiment was performed atop a Dell desktop machine having an Intel Core i5-6500 CPU at 3.20GHz and 4.00G of RAM, running 64-bit windows 10.
