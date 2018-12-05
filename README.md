@@ -48,11 +48,11 @@ run server.go and client.go
 If everything's working correctly, it'll say "listening on port 8082" or something like that and start downloading a lot of blocks. 
 Just like this:
 
-![image](https://github.com/Northeastern-University-Blockchain/Regulatory-confusing-service/blob/master/server.png)
+<div align=center>![image](https://github.com/Northeastern-University-Blockchain/Regulatory-confusing-service/blob/master/server.png)
 
 Afterwards, it'll just run. And then you can run the client.go, it will send a quest to the server and receive a response with a long signature at the end. As shown below:
 
-![image](https://github.com/Northeastern-University-Blockchain/Regulatory-confusing-service/blob/master/client.png)
+<div align=center>![image](https://github.com/Northeastern-University-Blockchain/Regulatory-confusing-service/blob/master/client.png)
 
 PS: We use a parallel strategy to simulate multiple users and test the time required to mix coins in different numbers of users. Of course if you don't want use the Multi-threaded mode, you can comment out the code in the client.go.
 
